@@ -1,11 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;1,100;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Raleway:ital,wght@0,100;0,200;1,100;1,200&display=swap');
+
+* {
+  /* background-color: rgba(0, 0, 0, 0.50); */
+  /* overflow-y: hidden; */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
 /* base styles */
 body {
   font-family: Raleway, sans-serif;
-  margin: 0 ;
   font-size: 1.5em;
   text-align: center;
-  background: #1b1523;
+  /* background-image: url("/public/img/background_1920px.png"); */
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 1);
   color: #fff;
 } 
